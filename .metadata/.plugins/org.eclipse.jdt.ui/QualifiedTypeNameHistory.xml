@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.ilp.entitiy.Account"/>
+    <fullyQualifiedTypeName name="com.ilp.entitiy.Customer"/>
+    <fullyQualifiedTypeName name="com.ilp.entity.Service"/>
+    <fullyQualifiedTypeName name="com.ilp.service.ServiceService"/>
+    <fullyQualifiedTypeName name="com.ilp.entity.SavingsMaxAccount"/>
+    <fullyQualifiedTypeName name="com.ilp.entity.CurrentAccount"/>
+    <fullyQualifiedTypeName name="com.ilp.entity.LoanAccount"/>
+    <fullyQualifiedTypeName name="com.ilp.service.ProductConfiguration"/>
+    <fullyQualifiedTypeName name="com.ilp.service.AccountService"/>
+    <fullyQualifiedTypeName name="com.ilp.service.CustomerService"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.ilp.service.ManageAccount"/>
+    <fullyQualifiedTypeName name="com.ilp.entity.Account"/>
+</qualifiedTypeNameHistroy>

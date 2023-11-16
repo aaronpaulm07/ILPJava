@@ -1,0 +1,33 @@
+package com.ilp.service;
+
+import java.util.Scanner;
+
+import com.ilp.entity.Product;
+
+public class ProductService {
+
+	public static Product selectProduct() {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Select Product /n 1.Savings max 2.Current 3.Loan");
+	    int ch = scanner.nextInt();
+		Product product  = new Product("0","0",null);
+		switch(ch)
+		{
+		case 1 : product.setProductCode("1");
+				 product.setProductName("Savings max");
+				 product.setServiceList(ServicesService.selectServices());
+				 break;
+		case 2 : product.setProductCode("2");
+		 product.setProductName("Current");
+		 product.setServiceList(ServicesService.selectServices());
+		 break;
+		case 3 : product.setProductCode("3");
+		 product.setProductName("Loan");
+		 product.setServiceList(ServicesService.selectServices());
+		 break;
+		}
+		return product;
+	}
+	
+}

@@ -1,0 +1,19 @@
+package com.ilp.entity;
+
+public class SavingAccount extends Account {
+private string roi;
+
+public SavingAccount(String accountNo, String accountName, double accountBalance, string roi) {
+	super(accountNo, accountName, accountBalance);
+	this.roi = roi;
+}
+
+public string getRoi() {
+	return roi;
+}
+
+public void setRoi(string roi) {
+	this.roi = roi;
+}
+
+}

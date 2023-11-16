@@ -1,0 +1,13 @@
+package com.ilp.entity;
+
+import java.util.ArrayList;
+
+public class Product {
+	private String productName;
+	private String productCode;
+	private ArrayList <Services> serviceList = new ArrayList <Services>();
+
+
+
+
+}

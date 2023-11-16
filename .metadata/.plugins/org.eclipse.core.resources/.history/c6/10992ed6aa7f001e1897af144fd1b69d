@@ -1,0 +1,12 @@
+package com.ilp.service;
+
+import com.ilp.utility.Account;
+
+public class AccountService {
+
+	public static Account createAccount() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

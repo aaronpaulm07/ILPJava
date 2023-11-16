@@ -1,0 +1,16 @@
+package com.ilp.service;
+
+import com.ilp.entity.Product;
+
+public class ProductService {
+
+	public static Product selectProduct() {
+		// TODO Auto-generated method stub
+		Product product  = new Product();
+		
+		
+		
+		return product;
+	}
+	
+}

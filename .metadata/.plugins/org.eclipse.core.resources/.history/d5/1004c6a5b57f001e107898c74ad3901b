@@ -1,0 +1,22 @@
+package com.ilp.service;
+
+import java.util.Scanner;
+
+import com.ilp.entitiy.Customer;
+
+public class CustomerService {
+	public static Customer createCustomer() {
+		Customer customer = new Customer();
+		String name;
+		Scanner scanner = new Scanner(System.in);
+		customer.setCustomerNo("3214100");
+		System.out.println("Enter Name :");
+		name = scanner.nextLine();
+		customer.setCustomerName(name);
+		return customer;
+	}
+	public static void displayCustomer(Customer customer) {
+		
+		System.out.println("customer no : " +customer.getCustomerNo() + "   customer name:"+customer.getCustomerName());       
+	}
+}

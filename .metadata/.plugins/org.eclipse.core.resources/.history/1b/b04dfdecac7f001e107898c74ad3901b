@@ -1,0 +1,23 @@
+package com.ilp.service;
+
+import com.ilp.entitiy.Account;
+
+public class AccountService {
+
+	public static Account createAccount() {
+		// TODO Auto-generated method stub
+		Account account = new Account();
+		Scanner scanner = new Scanner(System.in);
+		account.setAccountName("ACC100");
+		account.setAcountBalance("Savings Account");
+		System.out.println("Enter opening balance ");
+		double openingBalance = scanner.nextDouble();
+		account.setAcountBalance(openingBalance);
+	}
+
+	public static void DisplayAccount(com.ilp.entitiy.Account account) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

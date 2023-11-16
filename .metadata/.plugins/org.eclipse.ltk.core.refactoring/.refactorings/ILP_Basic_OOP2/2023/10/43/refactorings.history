@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ilp.entity.Account&apos; to &apos;Customer&apos;&#x0D;&#x0A;- Original project: &apos;ILP_Basic_OOP2&apos;&#x0D;&#x0A;- Original element: &apos;com.ilp.entity.Account&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ilp.entity.Customer&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Account&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ilp.entity{Account.java[Account" matchStrategy="1" name="Customer" qualified="false" references="true" similarDeclarations="false" stamp="1698486239931" textual="false" version="1.0"/>
+</session>

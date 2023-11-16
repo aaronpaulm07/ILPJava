@@ -1,0 +1,12 @@
+package com.ilp.service;
+
+import com.ilp.entity.Product;
+
+public class ServicesService {
+	public static Services selectServices() {
+		Services services =new Services();
+		System.out.println("Select Product /n 1.Savings max 2.Current 3.Loan");
+		return services;
+		
+	}
+}

@@ -1,0 +1,24 @@
+package com.ilp.service;
+
+import com.ilp.entity.Product;
+
+public class ProductService {
+
+	public static Product selectProduct() {
+		// TODO Auto-generated method stub
+		Product product  = new Product();
+		System.out.println("Select Product /n 1.Savings max 2.Current 3.Loan");
+		do {
+			
+			
+			
+		servicesList.add(services);
+		System.out.println("Add more services (y/n)");
+		moreServices = scanner.next().charAt(0);
+	}while(moreServices == 'y');
+		
+		
+		return product;
+	}
+	
+}

@@ -1,0 +1,17 @@
+package com.ilp.service;
+
+import java.util.ArrayList;
+
+import com.ilp.entity.Customer;
+
+public class ManageAccount {
+	public  ArrayList<Customer> deposit(double amount, ArrayList<Customer> customerList) {
+		.accountBalance= this.accountBalance + amount ;
+		
+		
+		return customerList;
+	}
+	public void withdraw(double amount) {
+		this.accountBalance = this.accountBalance - amount ;
+	}
+}

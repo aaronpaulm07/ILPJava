@@ -1,0 +1,57 @@
+package com.ilp.service;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.ilp.entity.Account;
+import com.ilp.entity.Customer;
+
+public class ManageAccount {
+	public  ArrayList<Customer> deposit(ArrayList<Customer> customerList) {
+		System.out.println("Enter Customer ID :");
+		Scanner scanner = new Scanner(System.in);
+		double amount =0 ;
+		String customerSearchCode = scanner.nextLine();
+		for(Customer customer: customerList)
+			{	if(customer.getCustomerCode().equalsIgnoreCase(customerSearchCode))
+				  for(Account account: customer.getAccountList())
+				  {
+					  System.out.println(account.getAccountNo()    +"      "+account.getAccountBalance());
+				  }
+			}
+		System.out.println("Enter account index (from 1):");
+		int accIndex = scanner.nextInt() - 1;
+		System.out.println("Enter amount :");
+		amount = scanner.nextInt();
+		for(Customer customer: customerList)
+		{	if(customer.getCustomerCode().equalsIgnoreCase(customerSearchCode))
+			{ customer.getAccountList().get(accIndex).deposit(amount);
+				System.out.println("new balance : "+ customer.getAccountList().get(accIndex).getAccountBalance());
+				}
+		}
+		
+		return customerList;
+	}
+	public ArrayList<Customer> withdraw(ArrayList<Customer> customerList) {
+		System.out.println("Enter Customer ID :");
+		Scanner scanner = new Scanner(System.in);
+		String customerSearchCode = scanner.nextLine();
+		for(Customer customer: customerList)
+			{	if(customer.getCustomerCode().equalsIgnoreCase(customerSearchCode))
+				  for(Account account: customer.getAccountList())
+				  {
+					  System.out.println(account.getAccountNo()    +"      "+account.getAccountBalance());
+				  }
+			}
+		System.out.println("Enter account index (from 1):");
+		int accIndex = scanner.nextInt() - 1;
+		for(Customer customer: customerList)
+		{	if(customer.getCustomerCode().equalsIgnoreCase(customerSearchCode))
+			{ customer.getAccountList().get(accIndex).deposit(amount);
+				System.out.println("new balance : "+ customer.getAccountList().get(accIndex).getAccountBalance());
+				}
+		}
+		
+		return customerList;
+	}
+}

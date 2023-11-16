@@ -1,0 +1,7 @@
+package com.ilp.entity;
+
+public class Service {
+	private String serviceId;
+	private Stirng serviceName;
+	private String servicePrice;
+}

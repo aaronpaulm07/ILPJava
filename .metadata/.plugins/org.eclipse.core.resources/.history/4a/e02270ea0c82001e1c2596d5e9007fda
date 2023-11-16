@@ -1,0 +1,7 @@
+package com.ilp.service;
+
+import com.ilp.entity.Product;
+
+public class ServicesService {
+	public static Services selectServices() {
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;ILP_Basic_P_27102024&apos; to &apos;ILP_Basic_OOP&apos;&#x0D;&#x0A;- Original element: &apos;ILP_Basic_P_27102024&apos;&#x0D;&#x0A;- Renamed element: &apos;ILP_Basic_P_27102024&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;ILP_Basic_P_27102024&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=ILP_Basic_P_27102024" name="ILP_Basic_OOP" references="true" stamp="1698483447026" version="1.0"/>
+</session>

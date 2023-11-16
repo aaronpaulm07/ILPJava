@@ -1,0 +1,23 @@
+package com.ilp.service;
+
+import java.util.ArrayList;
+
+import com.ilp.entity.Services;
+
+public class ServicesService {
+	public static ArrayList<Services> selectServices() {
+		Services services =new Services("0","0",0);
+		char moreServices;
+		
+		ArrayList<Services> servicesList = new  ArrayList<Services>();
+		do {
+			System.out.println("Select Product /n 1.Internet Banking 2.Cash Withdrawl 3.Cash Deposit 4.ATM Withdrawl 5.Online Banking");
+					
+			System.out.println("Add more services (y/n)");
+			moreServices = scanner.next().charAt(0);
+		}while(moreServices == 'y');
+		
+		return servicesList ;
+		
+	}
+}

@@ -1,0 +1,14 @@
+package com.ilp.service;
+
+import com.ilp.entity.Product;
+
+public class ServicesService {
+	public static ArrayList<Services> selectServices() {
+		Services services =new Services();
+		System.out.println("Select Product /n 1.Internet Banking 2.Cash Withdrawl 3.Cash Deposit 4.ATM Withdrawl 5.Online Banking");
+		ArrayList<Services> servicesList = new  ArrayList<Services>();
+		
+		return services;
+		
+	}
+}
