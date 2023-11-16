@@ -13,17 +13,16 @@ public class Account {
 		this.accountBalance = accountBalance;
 		this.product = product;
 	}
-	public String getAccountNo() {
+private String getAccountNo() {
 		return accountNo;
 	}
-	public void setAccountNo(String accountNo) {
+private void setAccountNo(String accountNo) {
 		this.accountNo = accountNo;
 	}
-	
-	public double getAccountBalance() {
+private double getAccountBalance() {
 		return accountBalance;
 	}
-	public void setAccountBalance(double accountBalance) {
+private void setAccountBalance(double accountBalance) {
 		this.accountBalance = accountBalance;
 	}
 	public Product getProduct() {

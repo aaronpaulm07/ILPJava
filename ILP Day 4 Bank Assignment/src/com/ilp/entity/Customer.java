@@ -14,22 +14,22 @@ public class Customer {
 		this.customerName = customerName;
 		this.accountList = accountList;
 	}
-	public ArrayList<Account> getAccountList() {
+private ArrayList<Account> getAccountList() {
 	 return accountList;
      }
-    public void setAccountList(ArrayList<Account> accountList) {
+private void setAccountList(ArrayList<Account> accountList) {
 	 this.accountList = accountList;
     }
-	public String getCustomerCode() {
+private String getCustomerCode() {
 		return customerCode;
 	}
-	public void setCustomerCode(String customerCode) {
+private void setCustomerCode(String customerCode) {
 		this.customerCode = customerCode;
 	}
-	public String getCustomerName() {
+private String getCustomerName() {
 		return customerName;
 	}
-	public void setCustomerName(String customerName) {
+private void setCustomerName(String customerName) {
 		this.customerName = customerName;
 	}
 	

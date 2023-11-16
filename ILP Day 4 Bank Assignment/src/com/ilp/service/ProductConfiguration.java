@@ -81,7 +81,7 @@ public class ProductConfiguration {
 			return servicesList ;
 			
 		}
-		public static void ServicesSelected(ArrayList<Services> servicesList) {
+		public static void servicesSelected(ArrayList<Services> servicesList) {
 		
 			for(Services services: servicesList)
 			{
