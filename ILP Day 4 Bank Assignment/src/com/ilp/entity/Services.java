@@ -1,6 +1,36 @@
 package com.ilp.entity;
 
 public class Services {
+public void getServiceCode() {
+      // TODO implement this operation
+      throw new UnsupportedOperationException("not implemented");
+   }
+   
+   public void getServiceName() {
+      // TODO implement this operation
+      throw new UnsupportedOperationException("not implemented");
+   }
+   
+   public void getRate() {
+      // TODO implement this operation
+      throw new UnsupportedOperationException("not implemented");
+   }
+   
+   public void setServiceCode() {
+      // TODO implement this operation
+      throw new UnsupportedOperationException("not implemented");
+   }
+   
+   public void setServiceName() {
+      // TODO implement this operation
+      throw new UnsupportedOperationException("not implemented");
+   }
+   
+   public void setRate() {
+      // TODO implement this operation
+      throw new UnsupportedOperationException("not implemented");
+   }
+   
 	private String serviceCode;
 	private String serviceName;
 	private double rate;

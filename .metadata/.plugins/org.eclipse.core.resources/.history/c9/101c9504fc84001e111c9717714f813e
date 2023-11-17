@@ -1,26 +1,6 @@
 package com.ilp.entity;
  
 public class Account {
-public void getAccountNo() {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
-   public void getAccountBalance() {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
-   public void setAccountNo() {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
-   public void setAccountBalance() {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
 	
 	private String accountNo;
 	private double accountBalance;

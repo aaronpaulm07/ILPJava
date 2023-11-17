@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ef2xIIRgEe6XjbUWqGrLIg">
+  <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_eeCzQIRgEe6XjbUWqGrLIg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bTgCgIRjEe6XjbUWqGrLIg" sourceAnchor="260.0,0.0" targetAnchor="257.0,213.0" target="_bTgCiIRjEe6XjbUWqGrLIg" source="_bT0LkIRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isgXwIRgEe6XjbUWqGrLIg"/>
+    <nameVisual xmi:id="_bTgCgYRjEe6XjbUWqGrLIg" text="">
+      <visualProperties xmi:id="_bW8YEIRjEe6XjbUWqGrLIg" position="-19.0,-35.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bTgCgoRjEe6XjbUWqGrLIg" aggregationKind="NONE" name="product" navigable="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isLnoIRgEe6XjbUWqGrLIg"/>
+      <visualProperties xmi:id="_bW7xAoRjEe6XjbUWqGrLIg" position="-60.0,-63.0"/>
+      <visibility xmi:id="_bTgCg4RjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTgChIRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bTgChYRjEe6XjbUWqGrLIg" aggregationKind="NONE" name="">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isgXwYRgEe6XjbUWqGrLIg"/>
+      <visualProperties xmi:id="_bW8YEYRjEe6XjbUWqGrLIg" position="1.0,17.0"/>
+      <visibility xmi:id="_bTgChoRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTgCh4RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bTjF0IRjEe6XjbUWqGrLIg" sourceAnchor="281.0,0.0" targetAnchor="0.0,23.0" target="_bTjF2IRjEe6XjbUWqGrLIg" source="_bTtd4IRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isfwsIRgEe6XjbUWqGrLIg"/>
+    <bendpoints xmi:id="_aqYQ8IT7Ee6MVsMEFt7fkw" sourceY="-37" targetX="-365" targetY="-1"/>
+    <nameVisual xmi:id="_bTjF0YRjEe6XjbUWqGrLIg" text="">
+      <visualProperties xmi:id="_bW7xAIRjEe6XjbUWqGrLIg" position="174.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_bTjF0oRjEe6XjbUWqGrLIg" aggregationKind="NONE" name="customer" navigable="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isKZgIRgEe6XjbUWqGrLIg"/>
+      <visualProperties xmi:id="_bW7J-YRjEe6XjbUWqGrLIg" position="149.0,-84.0"/>
+      <visibility xmi:id="_bTjF04RjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTjF1IRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bTjF1YRjEe6XjbUWqGrLIg" aggregationKind="NONE" name="">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isfwsYRgEe6XjbUWqGrLIg"/>
+      <visualProperties xmi:id="_bW7xAYRjEe6XjbUWqGrLIg" position="-38.00000000000006,-47.0"/>
+      <visibility xmi:id="_bTjF1oRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTjF14RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bTk7AIRjEe6XjbUWqGrLIg" sourceAnchor="0.0,27.0" targetAnchor="520.0,97.0" superClass="_bT0LkIRjEe6XjbUWqGrLIg" subClass="_bTn-UIRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irIewIRgEe6XjbUWqGrLIg"/>
+    <bendpoints xmi:id="_aqYQ8YT7Ee6MVsMEFt7fkw" sourceX="-50" targetX="98" targetY="-140"/>
+    <bendpoints xmi:id="_aqYQ8oT7Ee6MVsMEFt7fkw" sourceX="-50" sourceY="140" targetX="98"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bTmJIIRjEe6XjbUWqGrLIg" source="_bT0LkIRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_iskpMIRgEe6XjbUWqGrLIg"/>
+    <stereotypes xmi:id="_bTmwM4RjEe6XjbUWqGrLIg" name="Reference">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_islQQIRgEe6XjbUWqGrLIg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bTmwMIRjEe6XjbUWqGrLIg" text=""/>
+    <sourceRole xmi:id="_bTmwMYRjEe6XjbUWqGrLIg" aggregationKind="NONE" name="">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_iskpMYRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bTnXQYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTnXQIRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bTmwMoRjEe6XjbUWqGrLIg" aggregationKind="NONE" name="serviceList" navigable="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isHWMYRgEe6XjbUWqGrLIg"/>
+      <stereotypes xmi:id="_6KUxAIT4Ee6MVsMEFt7fkw" name="Generics">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isH9QIRgEe6XjbUWqGrLIg"/>
+      </stereotypes>
+      <visibility xmi:id="_bTnXQ4RjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTnXQoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bTpMcIRjEe6XjbUWqGrLIg" sourceAnchor="0.0,27.0" targetAnchor="520.0,97.0" superClass="_bT0LkIRjEe6XjbUWqGrLIg" subClass="_bTqakIRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irK7AIRgEe6XjbUWqGrLIg"/>
+    <bendpoints xmi:id="_aqYQ84T7Ee6MVsMEFt7fkw" sourceX="-75" targetX="98" targetY="35"/>
+    <bendpoints xmi:id="_aqYQ9IT7Ee6MVsMEFt7fkw" sourceX="-75" sourceY="-35" targetX="98"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bTrosIRjEe6XjbUWqGrLIg" source="_bTtd4IRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isjbEIRgEe6XjbUWqGrLIg"/>
+    <stereotypes xmi:id="_bTsPw4RjEe6XjbUWqGrLIg" name="Reference">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_iskCIIRgEe6XjbUWqGrLIg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_bTsPwIRjEe6XjbUWqGrLIg" text=""/>
+    <sourceRole xmi:id="_bTsPwYRjEe6XjbUWqGrLIg" aggregationKind="NONE" name="">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isjbEYRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bTs20YRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTs20IRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_bTsPwoRjEe6XjbUWqGrLIg" aggregationKind="NONE" name="accountList" navigable="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isGIEIRgEe6XjbUWqGrLIg"/>
+      <stereotypes xmi:id="_6KUxAYT4Ee6MVsMEFt7fkw" name="Generics">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isGvIIRgEe6XjbUWqGrLIg"/>
+      </stereotypes>
+      <visibility xmi:id="_bTs204RjEe6XjbUWqGrLIg" label="-"/>
+      <cardinality xmi:id="_bTs20oRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bTyWYIRjEe6XjbUWqGrLIg" sourceAnchor="0.0,27.0" targetAnchor="520.0,97.0" superClass="_bT0LkIRjEe6XjbUWqGrLIg" subClass="_bTy9cIRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irMwMIRgEe6XjbUWqGrLIg"/>
+    <bendpoints xmi:id="_aqYQ9YT7Ee6MVsMEFt7fkw" sourceX="-30" targetX="98" targetY="-58"/>
+    <bendpoints xmi:id="_aqYQ9oT7Ee6MVsMEFt7fkw" sourceX="-30" sourceY="58" targetX="98"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bT2n0IRjEe6XjbUWqGrLIg" name="AccountService">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_im9JYIRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bT2n0YRjEe6XjbUWqGrLIg" position="-186.0,1014.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bT2n0oRjEe6XjbUWqGrLIg" label="+"/>
+    <operations xmi:id="_bT2n04RjEe6XjbUWqGrLIg" name="createAccount" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir1CUIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bT2n1IRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT2n1YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bT2n1oRjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir1CUoRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bT2n14RjEe6XjbUWqGrLIg" name="Account">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inAMsIRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bT2n2IRjEe6XjbUWqGrLIg" name="availableProductList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir1CUYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT2n2YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT2n2oRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bT2n24RjEe6XjbUWqGrLIg" name="displayAccount" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir23gIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bT2n3IRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT2n3YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bT2n3oRjEe6XjbUWqGrLIg" name="customerList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir23gYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT2n34RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT2n4IRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bT2n4YRjEe6XjbUWqGrLIg" name="checkTransaction" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir4FoIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bT2n4oRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT2n44RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bT2n5IRjEe6XjbUWqGrLIg" name="customerList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir4FoYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT2n5YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT2n5oRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bUAY0IRjEe6XjbUWqGrLIg" name="BankingUtility">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inUVwIRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bUAY0YRjEe6XjbUWqGrLIg" position="-325.0,649.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bUAY0oRjEe6XjbUWqGrLIg" label="+"/>
+    <operations xmi:id="_bUAY04RjEe6XjbUWqGrLIg" name="main" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inVj4IRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bUAY1IRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bUAY1YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bUAY1oRjEe6XjbUWqGrLIg" name="args">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inVj4YRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bUAY14RjEe6XjbUWqGrLIg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_bUAY2IRjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bTtd4IRjEe6XjbUWqGrLIg" name="Customer" associationsOut="_bTjF0IRjEe6XjbUWqGrLIg _bTrosIRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imq1gIRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bTtd4YRjEe6XjbUWqGrLIg" position="-325.0,725.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bTtd4oRjEe6XjbUWqGrLIg" label="+"/>
+    <attributes xmi:id="_bTtd44RjEe6XjbUWqGrLIg" name="customerCode">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isE58IRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bTtd5IRjEe6XjbUWqGrLIg" label="-"/>
+      <cardinality xmi:id="_bTtd5YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bTtd5oRjEe6XjbUWqGrLIg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bTtd54RjEe6XjbUWqGrLIg" name="customerName">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isFhAIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bTtd6IRjEe6XjbUWqGrLIg" label="-"/>
+      <cardinality xmi:id="_bTtd6YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bTtd6oRjEe6XjbUWqGrLIg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bTtd64RjEe6XjbUWqGrLIg" name="accountList">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isGIEIRgEe6XjbUWqGrLIg"/>
+      <stereotypes xmi:id="_6K5_0YT4Ee6MVsMEFt7fkw" name="Generics"/>
+      <stereotypes xmi:id="_6K5_0oT4Ee6MVsMEFt7fkw" name="Generics"/>
+      <stereotypes xmi:id="_6LAtgIT4Ee6MVsMEFt7fkw" name="Generics"/>
+      <visibility xmi:id="_bTtd7YRjEe6XjbUWqGrLIg" label="-"/>
+      <cardinality xmi:id="_bTtd7oRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bTtd74RjEe6XjbUWqGrLIg" name="ArrayList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bTtd8IRjEe6XjbUWqGrLIg" name="Customer">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irpcIIRgEe6XjbUWqGrLIg"/>
+      <keywords xmi:id="_bTtd8YRjEe6XjbUWqGrLIg" keyword="create"/>
+      <visibility xmi:id="_bTtd8oRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTtd84RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bTtd9IRjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irqDNYRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bTtd9YRjEe6XjbUWqGrLIg" name="Customer">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imq1gIRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bTtd9oRjEe6XjbUWqGrLIg" name="customerCode">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irqDMIRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTtd94RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTtd-IRjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTtd-YRjEe6XjbUWqGrLIg" name="customerName">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irqDMYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTtd-oRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTtd-4RjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTtd_IRjEe6XjbUWqGrLIg" name="accountList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irqDMoRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTtd_YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTtd_oRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_DwbTIYT6Ee6MVsMEFt7fkw" name="getCustomerCode">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_DwbTIIT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_Dwb6MIT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_Dwb6MYT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_GCyXUIT6Ee6MVsMEFt7fkw" name="getCustomerName">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_GCxwQIT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_GCyXUYT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_GCyXUoT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_IGPc0YT6Ee6MVsMEFt7fkw" name="getAccountList">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_IGPc0IT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_IGPc0oT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_IGPc04T6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_jF8kgIT6Ee6MVsMEFt7fkw" name="setCustomerCode">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_jF79cIT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_jF8kgYT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_jF8kgoT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_lcpWIIT6Ee6MVsMEFt7fkw" name="setCustomerName">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_lcovEIT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_lcpWIYT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_lcpWIoT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_msZt0IT6Ee6MVsMEFt7fkw" name="setAccountList">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_msYfsIT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_msZt0YT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_msZt0oT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bT5EEIRjEe6XjbUWqGrLIg" name="CustomerService">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imTpIIRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bT5EEYRjEe6XjbUWqGrLIg" position="279.0,834.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bT5EEoRjEe6XjbUWqGrLIg" label="+"/>
+    <operations xmi:id="_bT5EE4RjEe6XjbUWqGrLIg" name="createCustomer" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irYWYIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bT5EFIRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT5EFYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bT5EFoRjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irYWYoRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bT5EF4RjEe6XjbUWqGrLIg" name="Customer">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imq1gIRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bT5EGIRjEe6XjbUWqGrLIg" name="availableProductList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irYWYYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT5EGYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT5EGoRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bT5EG4RjEe6XjbUWqGrLIg" name="displayCustomer" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irayoIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bT5EHIRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT5EHYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bT5EHoRjEe6XjbUWqGrLIg" name="customerList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irayoYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT5EH4RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT5EIIRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bT5EIYRjEe6XjbUWqGrLIg" name="displayAllCustomer" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ircn0IRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bT5EIoRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT5EI4RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bT5EJIRjEe6XjbUWqGrLIg" name="customerList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ircn0YRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT5EJYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT5EJoRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bT5EJ4RjEe6XjbUWqGrLIg" name="addAccountToCustomer" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irfEEIRgEe6XjbUWqGrLIg"/>
+      <stereotypes xmi:id="_bT5EKIRjEe6XjbUWqGrLIg" name="Generics">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irg5QIRgEe6XjbUWqGrLIg"/>
+      </stereotypes>
+      <visibility xmi:id="_bT5EKYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT5EKoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bT5EK4RjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irg5QYRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bT5ELIRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bT5ELYRjEe6XjbUWqGrLIg" name="customerList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irfEEYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT5ELoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT5EL4RjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bT5EMIRjEe6XjbUWqGrLIg" name="availableProductList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irfrIIRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT5EMYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT5EMoRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bTjF2IRjEe6XjbUWqGrLIg" name="Transaction" associationsIn="_bTjF0IRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_im7UMIRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bTjF2YRjEe6XjbUWqGrLIg" position="322.0,665.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bTjF2oRjEe6XjbUWqGrLIg" label="+"/>
+    <attributes xmi:id="_bTjF24RjEe6XjbUWqGrLIg" name="transactionCode">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isJycYRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bTjF3IRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTjF3YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bTjF3oRjEe6XjbUWqGrLIg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bTjF34RjEe6XjbUWqGrLIg" name="customer">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isKZgIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bTjF4IRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTjF4YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bTjF4oRjEe6XjbUWqGrLIg" name="Customer">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imq1gIRgEe6XjbUWqGrLIg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_QCz1UIT7Ee6MVsMEFt7fkw" name="getTransactionCode">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_QCzOQIT7Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_QCz1UYT7Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_QCz1UoT7Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_RIaLcIT7Ee6MVsMEFt7fkw" name="setTransaction">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_RIZkYIT7Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_RIaLcYT7Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_RIaLcoT7Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bT8ucIRjEe6XjbUWqGrLIg" name="ProductConfiguration">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inEeIIRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bT8ucYRjEe6XjbUWqGrLIg" position="584.0,637.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bT8ucoRjEe6XjbUWqGrLIg" label="+"/>
+    <operations xmi:id="_bT8uc4RjEe6XjbUWqGrLIg" name="defaultProducts" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inFsQIRgEe6XjbUWqGrLIg"/>
+      <stereotypes xmi:id="_bT8udIRjEe6XjbUWqGrLIg" name="Generics">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inIvkIRgEe6XjbUWqGrLIg"/>
+      </stereotypes>
+      <visibility xmi:id="_bT8udYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT8udoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bT8ud4RjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir5TwYRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bT8ueIRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bT8ueYRjEe6XjbUWqGrLIg" name="defaultServices" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inMZ8IRgEe6XjbUWqGrLIg"/>
+      <stereotypes xmi:id="_bT8ueoRjEe6XjbUWqGrLIg" name="Generics">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inOPIIRgEe6XjbUWqGrLIg"/>
+      </stereotypes>
+      <visibility xmi:id="_bT8ue4RjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT8ufIRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bT8ufYRjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir-zUYRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bT8ufoRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bT8uf4RjEe6XjbUWqGrLIg" name="selectProduct" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir560IRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bT8ugIRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT8ugYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bT8ugoRjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir560oRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bT8ug4RjEe6XjbUWqGrLIg" name="Product">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imw8IIRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bT8uhIRjEe6XjbUWqGrLIg" name="productList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir560YRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT8uhYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT8uhoRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bT8uh4RjEe6XjbUWqGrLIg" name="selectServices" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir7I8YRgEe6XjbUWqGrLIg"/>
+      <stereotypes xmi:id="_bT8uiIRjEe6XjbUWqGrLIg" name="Generics">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir8XEIRgEe6XjbUWqGrLIg"/>
+      </stereotypes>
+      <visibility xmi:id="_bT8uiYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT8uioRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bT8ui4RjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir8XEYRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bT8ujIRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bT8ujYRjEe6XjbUWqGrLIg" name="availableServices">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir7I8oRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT8ujoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT8uj4RjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bT8ukIRjEe6XjbUWqGrLIg" name="servicesSelected" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir9lMIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bT8ukYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT8ukoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bT8uk4RjEe6XjbUWqGrLIg" name="servicesList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir9lMYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT8ulIRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT8ulYRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bT8uloRjEe6XjbUWqGrLIg" name="createServices" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir-zUoRgEe6XjbUWqGrLIg"/>
+      <stereotypes xmi:id="_bT8ul4RjEe6XjbUWqGrLIg" name="Generics">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isABcIRgEe6XjbUWqGrLIg"/>
+      </stereotypes>
+      <visibility xmi:id="_bT8umIRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT8umYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bT8umoRjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isABcYRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bT8um4RjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bT8unIRjEe6XjbUWqGrLIg" name="availableServices">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ir-zU4RgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT8unYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT8unoRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bT8un4RjEe6XjbUWqGrLIg" name="manageAccount" staticOperation="true">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isB2oYRgEe6XjbUWqGrLIg"/>
+      <stereotypes xmi:id="_bT8uoIRjEe6XjbUWqGrLIg" name="Generics">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isDEwIRgEe6XjbUWqGrLIg"/>
+      </stereotypes>
+      <visibility xmi:id="_bT8uoYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT8uooRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bT8uo4RjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isDEwYRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bT8upIRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bT8upYRjEe6XjbUWqGrLIg" name="customerList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isB2ooRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT8upoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT8up4RjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bTgCiIRjEe6XjbUWqGrLIg" name="Account" associationsIn="_bTgCgIRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inAMsIRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bTgCiYRjEe6XjbUWqGrLIg" position="-337.0,128.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bTgCioRjEe6XjbUWqGrLIg" label="+"/>
+    <attributes xmi:id="_bTgCi4RjEe6XjbUWqGrLIg" name="accountNo">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isLAkIRgEe6XjbUWqGrLIg"/>
+      <visualProperties xmi:id="_ZiJvgIT5Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_bTgCjIRjEe6XjbUWqGrLIg" label="-"/>
+      <cardinality xmi:id="_bTgCjYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bTgCjoRjEe6XjbUWqGrLIg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bTgCj4RjEe6XjbUWqGrLIg" name="accountBalance">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isLAkYRgEe6XjbUWqGrLIg"/>
+      <visualProperties xmi:id="_ZiK9oIT5Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_bTgCkIRjEe6XjbUWqGrLIg" label="-"/>
+      <cardinality xmi:id="_bTgCkYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bTgCkoRjEe6XjbUWqGrLIg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bTgCk4RjEe6XjbUWqGrLIg" name="product">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isLnoIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bTgClIRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTgClYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bTgCloRjEe6XjbUWqGrLIg" name="Product">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imw8IIRgEe6XjbUWqGrLIg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bTgCl4RjEe6XjbUWqGrLIg" name="deposit">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inCB4IRgEe6XjbUWqGrLIg"/>
+      <visualProperties xmi:id="_E-VtMIT5Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_bTgpkIRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTgpkYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bTgpkoRjEe6XjbUWqGrLIg" name="amount">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inCB4YRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTgpk4RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTgplIRjEe6XjbUWqGrLIg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bTgplYRjEe6XjbUWqGrLIg" name="withdraw">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inCo8IRgEe6XjbUWqGrLIg"/>
+      <visualProperties xmi:id="_E-WUQIT5Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_bTgploRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTgpl4RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bTgpmIRjEe6XjbUWqGrLIg" name="amount">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inCo8YRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTgpmYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTgpmoRjEe6XjbUWqGrLIg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bTgpm4RjEe6XjbUWqGrLIg" name="Account">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irQakIRgEe6XjbUWqGrLIg"/>
+      <visualProperties xmi:id="_E-W7UIT5Ee6MVsMEFt7fkw"/>
+      <keywords xmi:id="_bTgpnIRjEe6XjbUWqGrLIg" keyword="create"/>
+      <visibility xmi:id="_bTgpnYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTgpnoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bTgpn4RjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irRBpIRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bTgpoIRjEe6XjbUWqGrLIg" name="Account">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_inAMsIRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bTgpoYRjEe6XjbUWqGrLIg" name="accountNo">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irQakYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTgpooRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTgpo4RjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTgppIRjEe6XjbUWqGrLIg" name="accountBalance">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irRBoIRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTgppYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTgppoRjEe6XjbUWqGrLIg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTgpp4RjEe6XjbUWqGrLIg" name="product">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irRBoYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTgpqIRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTgpqYRjEe6XjbUWqGrLIg" name="Product">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imw8IIRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fBhiQIT5Ee6MVsMEFt7fkw" name="getAccountNo">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_fBgUIIT5Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_fBhiQYT5Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_fBhiQoT5Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_17TWYIT5Ee6MVsMEFt7fkw" name="getAccountBalance">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_17SIQIT5Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_17TWYYT5Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_17TWYoT5Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_MjENcIT6Ee6MVsMEFt7fkw" name="setAccountNo">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_MjDmYIT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_MjENcYT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_MjENcoT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_OJ0I0IT6Ee6MVsMEFt7fkw" name="setAccountBalance">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_OJzhwIT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_OJ0I0YT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_OJ0I0oT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bTn-UIRjEe6XjbUWqGrLIg" name="CurrentAccount" generalizations="_bTk7AIRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imoZQIRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bTn-UYRjEe6XjbUWqGrLIg" position="328.0,367.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bTn-UoRjEe6XjbUWqGrLIg" label="+"/>
+    <operations xmi:id="_bTn-U4RjEe6XjbUWqGrLIg" name="CurrentAccount">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irlxwIRgEe6XjbUWqGrLIg"/>
+      <keywords xmi:id="_bTn-VIRjEe6XjbUWqGrLIg" keyword="create"/>
+      <visibility xmi:id="_bTn-VYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTn-VoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bTn-V4RjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irmY04RgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bTn-WIRjEe6XjbUWqGrLIg" name="CurrentAccount">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imoZQIRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bTn-WYRjEe6XjbUWqGrLIg" name="productName">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irlxwYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTn-WoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTn-W4RjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTn-XIRjEe6XjbUWqGrLIg" name="productCode">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irlxwoRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTn-XYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTn-XoRjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTn-X4RjEe6XjbUWqGrLIg" name="serviceList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irmY0IRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTn-YIRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTn-YYRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bTqakIRjEe6XjbUWqGrLIg" name="LoanAccount" generalizations="_bTpMcIRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imuf4IRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bTqakYRjEe6XjbUWqGrLIg" position="353.0,542.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bTqakoRjEe6XjbUWqGrLIg" label="+"/>
+    <operations xmi:id="_bTqak4RjEe6XjbUWqGrLIg" name="LoanAccount">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irsfcIRgEe6XjbUWqGrLIg"/>
+      <keywords xmi:id="_bTqalIRjEe6XjbUWqGrLIg" keyword="create"/>
+      <visibility xmi:id="_bTqalYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTqaloRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bTqal4RjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irtGgoRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bTqamIRjEe6XjbUWqGrLIg" name="LoanAccount">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imuf4IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bTqamYRjEe6XjbUWqGrLIg" name="productName">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irsfcYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTqamoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTqam4RjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTqanIRjEe6XjbUWqGrLIg" name="productCode">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irsfcoRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTqanYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTqanoRjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTqan4RjEe6XjbUWqGrLIg" name="serviceList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irsfc4RgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTqaoIRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTqaoYRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bTy9cIRjEe6XjbUWqGrLIg" name="SavingsMaxAccount" generalizations="_bTyWYIRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imz_cIRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bTy9cYRjEe6XjbUWqGrLIg" position="308.0,449.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bTy9coRjEe6XjbUWqGrLIg" label="+"/>
+    <operations xmi:id="_bTy9c4RjEe6XjbUWqGrLIg" name="SavingsMaxAccount">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irx_AIRgEe6XjbUWqGrLIg"/>
+      <keywords xmi:id="_bTy9dIRjEe6XjbUWqGrLIg" keyword="create"/>
+      <visibility xmi:id="_bTy9dYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTy9doRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bTy9d4RjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irymFYRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bTy9eIRjEe6XjbUWqGrLIg" name="SavingsMaxAccount">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imz_cIRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bTy9eYRjEe6XjbUWqGrLIg" name="productName">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irymEIRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTy9eoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTy9e4RjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTy9fIRjEe6XjbUWqGrLIg" name="productCode">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irymEYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTy9fYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTy9foRjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTy9f4RjEe6XjbUWqGrLIg" name="serviceList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irymEoRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTy9gIRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTy9gYRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bT0LkIRjEe6XjbUWqGrLIg" name="Product" abstractClass="true" associationsOut="_bTgCgIRjEe6XjbUWqGrLIg _bTmJIIRjEe6XjbUWqGrLIg" subclassedBy="_bTk7AIRjEe6XjbUWqGrLIg _bTpMcIRjEe6XjbUWqGrLIg _bTyWYIRjEe6XjbUWqGrLIg">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imw8IIRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bT0LkYRjEe6XjbUWqGrLIg" position="-340.0,437.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bT0LkoRjEe6XjbUWqGrLIg" label="+"/>
+    <attributes xmi:id="_bT0Lk4RjEe6XjbUWqGrLIg" name="productName">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isGvIYRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bT0LlIRjEe6XjbUWqGrLIg" label="-"/>
+      <cardinality xmi:id="_bT0LlYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bT0LloRjEe6XjbUWqGrLIg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bT0Ll4RjEe6XjbUWqGrLIg" name="productCode">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isHWMIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bT0LmIRjEe6XjbUWqGrLIg" label="-"/>
+      <cardinality xmi:id="_bT0LmYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bT0LmoRjEe6XjbUWqGrLIg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bT0Lm4RjEe6XjbUWqGrLIg" defaultValue="new ArrayList &lt;Services>()" name="serviceList">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isHWMYRgEe6XjbUWqGrLIg"/>
+      <stereotypes xmi:id="_6K1HUIT4Ee6MVsMEFt7fkw" name="Generics"/>
+      <stereotypes xmi:id="_6K5_0IT4Ee6MVsMEFt7fkw" name="Generics"/>
+      <stereotypes xmi:id="_6LAtgYT4Ee6MVsMEFt7fkw" name="Generics"/>
+      <visibility xmi:id="_bT0LnYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT0LnoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bT0Ln4RjEe6XjbUWqGrLIg" name="ArrayList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bT0LoIRjEe6XjbUWqGrLIg" name="Product">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irviwIRgEe6XjbUWqGrLIg"/>
+      <keywords xmi:id="_bT0LoYRjEe6XjbUWqGrLIg" keyword="create"/>
+      <visibility xmi:id="_bT0LooRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bT0Lo4RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bT0LpIRjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irvixoRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bT0LpYRjEe6XjbUWqGrLIg" name="Product">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_imw8IIRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bT0LpoRjEe6XjbUWqGrLIg" name="productName">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irviwYRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT0Lp4RjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT0LqIRjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bT0LqYRjEe6XjbUWqGrLIg" name="productCode">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irviwoRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT0LqoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT0Lq4RjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bT0LrIRjEe6XjbUWqGrLIg" name="serviceList">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irviw4RgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bT0LrYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bT0LroRjEe6XjbUWqGrLIg" name="ArrayList">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_irAi8IRgEe6XjbUWqGrLIg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_4bATAIT5Ee6MVsMEFt7fkw" name="getProductName">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_4a_E4IT5Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_4bATAYT5Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_4bATAoT5Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_57JQEYT5Ee6MVsMEFt7fkw" name="getProductCode">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_57JQEIT5Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_57JQEoT5Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_57JQE4T5Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_TQ5-cIT6Ee6MVsMEFt7fkw" name="setProductName">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_TQ5XYIT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_TQ5-cYT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_TQ5-coT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VF8NcIT6Ee6MVsMEFt7fkw" name="setProductCode">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_VF7mYIT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_VF8NcYT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_VF8NcoT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bTai8IRjEe6XjbUWqGrLIg" name="Services">
+    <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_im2bsIRgEe6XjbUWqGrLIg"/>
+    <visualProperties xmi:id="_bTai8YRjEe6XjbUWqGrLIg" position="355.0,62.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bTai8oRjEe6XjbUWqGrLIg" label="+"/>
+    <attributes xmi:id="_bTai84RjEe6XjbUWqGrLIg" name="serviceCode">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isIkUIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bTai9IRjEe6XjbUWqGrLIg" label="-"/>
+      <cardinality xmi:id="_bTai9YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bTai9oRjEe6XjbUWqGrLIg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bTai94RjEe6XjbUWqGrLIg" name="serviceName">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isIkUYRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bTai-IRjEe6XjbUWqGrLIg" label="-"/>
+      <cardinality xmi:id="_bTai-YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bTai-oRjEe6XjbUWqGrLIg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bTai-4RjEe6XjbUWqGrLIg" name="rate">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_isJycIRgEe6XjbUWqGrLIg"/>
+      <visibility xmi:id="_bTai_IRjEe6XjbUWqGrLIg" label="-"/>
+      <cardinality xmi:id="_bTai_YRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <type xmi:id="_bTai_oRjEe6XjbUWqGrLIg" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bTai_4RjEe6XjbUWqGrLIg" name="Services">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_im3p0IRgEe6XjbUWqGrLIg"/>
+      <keywords xmi:id="_bTajAIRjEe6XjbUWqGrLIg" keyword="create"/>
+      <visibility xmi:id="_bTajAYRjEe6XjbUWqGrLIg" label="+"/>
+      <cardinality xmi:id="_bTajAoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bTajA4RjEe6XjbUWqGrLIg">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_im6GEYRgEe6XjbUWqGrLIg"/>
+        <type xmi:id="_bTajBIRjEe6XjbUWqGrLIg" name="Services">
+          <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_im2bsIRgEe6XjbUWqGrLIg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bTajBYRjEe6XjbUWqGrLIg" name="serviceCode">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_im3p0YRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTajBoRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTajB4RjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTajCIRjEe6XjbUWqGrLIg" name="serviceName">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_im4Q4IRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTajCYRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTajCoRjEe6XjbUWqGrLIg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTajC4RjEe6XjbUWqGrLIg" name="rate">
+        <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_im4Q4YRgEe6XjbUWqGrLIg"/>
+        <cardinality xmi:id="_bTajDIRjEe6XjbUWqGrLIg" label="1" max="1" min="1"/>
+        <type xmi:id="_bTajDYRjEe6XjbUWqGrLIg" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_9GZEEIT5Ee6MVsMEFt7fkw" name="getServiceCode">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_9GYdAIT5Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_9GZEEYT5Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_9GZEEoT5Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__BrsEIT5Ee6MVsMEFt7fkw" name="getServiceName">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#__BrFAIT5Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="__BrsEYT5Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="__BrsEoT5Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ATD0YIT6Ee6MVsMEFt7fkw" name="getRate">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_ATDNUIT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_ATD0YYT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_ATD0YoT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Y_6vsIT6Ee6MVsMEFt7fkw" name="setServiceCode">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_Y_6IoIT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_Y_6vsYT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_Y_6vsoT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_byV0AIT6Ee6MVsMEFt7fkw" name="setServiceName">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_byVM8IT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_byV0AYT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_byV0AoT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_dgfX4IT6Ee6MVsMEFt7fkw" name="setRate">
+      <modelElement href="ILP%20Day%204%20Bank%20Assignment.uml#_dgew0IT6Ee6MVsMEFt7fkw"/>
+      <visibility xmi:id="_dgfX4YT6Ee6MVsMEFt7fkw" label="+"/>
+      <cardinality xmi:id="_dgfX4oT6Ee6MVsMEFt7fkw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

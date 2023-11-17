@@ -1,16 +1,6 @@
 package com.ilp.entity;
 
 public class Transaction {
-public void getTransactionCode() {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
-   public void setTransaction() {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
 	private String transactionCode ;
 	private Customer customer;
 	public String getTransactionCode() {

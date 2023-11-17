@@ -3,26 +3,6 @@ package com.ilp.entity;
 import java.util.ArrayList;
 
 public abstract class Product {
-public void getProductName() {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
-   public void getProductCode() {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
-   public void setProductName() {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
-   public void setProductCode() {
-      // TODO implement this operation
-      throw new UnsupportedOperationException("not implemented");
-   }
-   
 	private String productName;
 	private String productCode;
 	private ArrayList <Services> serviceList = new ArrayList <Services>();
